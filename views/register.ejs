@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Registration Page</h1>
+        <form action="/register" method="post">
+            <div class="form-group">
+                <label for="first-name">First Name:</label>
+                <input type="text" class="form-control" id="fname" name="fname" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name:</label>
+                <input type="text" class="form-control" id="lname" name="lname" required>
+            </div>
+            <div class="form-group">
+                <label for="mobile-number">Mobile Number:</label>
+                <input type="text" class="form-control" id="mobile" name="mobile" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" class="form-control" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="picture">Picture:</label>
+                <input type="file" class="form-control-file" id="picture" name="picture">
+            </div>
+            <div>
+                <button type="submit" class="btn btn-primary">Register</button>
+                <a href="/login">Login</a>
+            </div>
+        </form>
+    </div>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
